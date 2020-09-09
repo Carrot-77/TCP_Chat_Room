@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLACK	common/color.h	5;"	d
+BLUE	common/color.h	13;"	d
+GREEN	common/color.h	9;"	d
+HEAD_H	common/head.h	2;"	d
+L_BLACK	common/color.h	6;"	d
+L_BLUE	common/color.h	14;"	d
+L_GREEN	common/color.h	10;"	d
+L_PINK	common/color.h	15;"	d
+L_RED	common/color.h	8;"	d
+L_YELLOW	common/color.h	12;"	d
+MAX_CLIENT	common/chatroom.h	38;"	d
+MAX_LINE	common/chatroom.h	39;"	d
+Msg	common/chatroom.h	/^struct Msg {$/;"	s
+NONE	common/color.h	4;"	d
+PINK	common/color.h	16;"	d
+RED	common/color.h	7;"	d
+RecvMsg	common/chatroom.h	/^struct RecvMsg {$/;"	s
+User	server/server.c	/^struct User{$/;"	s	file:
+YELLOW	common/color.h	11;"	d
+_CHATROOM_H	common/chatroom.h	2;"	d
+_COLOR_H	common/color.h	2;"	d
+_COMMON_H	common/common.h	2;"	d
+_TCP_CLIENT_H	common/tcp_client.h	2;"	d
+_TCP_SERVER_H	common/tcp_server.h	2;"	d
+chat_recv	common/chatroom.h	/^struct RecvMsg chat_recv(int fd) {$/;"	f
+chat_send	common/chatroom.h	/^int chat_send(struct Msg msg, int fd) {$/;"	f
+check_online	server/server.c	/^bool check_online(char *name) {$/;"	f
+client	server/server.c	/^struct User *client;$/;"	v	typeref:struct:User
+conf	client/client.c	/^char *conf = ".\/client.conf";$/;"	v
+conf	client2/client.c	/^char *conf = ".\/client.conf";$/;"	v
+conf	client3/client.c	/^char *conf = ".\/client.conf";$/;"	v
+conf	server/server.c	/^char *conf = ".\/server.conf";$/;"	v
+conf_ans	common/common.h	/^char conf_ans[50] = {0};$/;"	v
+fd	server/server.c	/^    int fd;$/;"	m	struct:User	file:
+find_sub	server/server.c	/^int find_sub() {$/;"	f
+flag	common/chatroom.h	/^    int flag;$/;"	m	struct:Msg
+from	common/chatroom.h	/^    char from[20];$/;"	m	struct:Msg
+get_value	common/common.c	/^char *get_value(char *path, char *key) {$/;"	f
+logout	client/client.c	/^void logout(int signalnum) {$/;"	f
+logout	client2/client.c	/^void *logout(int signalnum) {$/;"	f
+logout	client3/client.c	/^void *logout(int signalnum) {$/;"	f
+main	client/client.c	/^int main() {$/;"	f
+main	client2/client.c	/^int main() {$/;"	f
+main	client3/client.c	/^int main() {$/;"	f
+main	common/test.c	/^int main() {$/;"	f
+main	server/server.c	/^int main() {$/;"	f
+make_block	common/common.c	/^void make_block(int fd) {$/;"	f
+make_block_ioctl	common/common.c	/^void make_block_ioctl(int fd) {$/;"	f
+make_nonblock	common/common.c	/^void make_nonblock(int fd) {$/;"	f
+make_nonblock_ioctl	common/common.c	/^void make_nonblock_ioctl(int fd){$/;"	f
+message	common/chatroom.h	/^    char message[512];$/;"	m	struct:Msg
+msg	common/chatroom.h	/^    struct Msg msg;$/;"	m	struct:RecvMsg	typeref:struct:RecvMsg::Msg
+name	server/server.c	/^    char name[20];$/;"	m	struct:User	file:
+online	server/server.c	/^    int online;$/;"	m	struct:User	file:
+recv_file	server/server.c	/^void recv_file(char *filename, int sockfd) {$/;"	f
+retval	common/chatroom.h	/^    int retval;$/;"	m	struct:RecvMsg
+send_file	client/client.c	/^int send_file(char *filename, int sockfd) {$/;"	f
+socket_connect	common/tcp_client.c	/^int socket_connect(char *host, int port) {$/;"	f
+socket_create	common/tcp_server.c	/^int socket_create(int port) {$/;"	f
+sockfd	client/client.c	/^int sockfd;$/;"	v
+sockfd	client2/client.c	/^int sockfd;$/;"	v
+sockfd	client3/client.c	/^int sockfd;$/;"	v
+tid	server/server.c	/^    pthread_t tid;$/;"	m	struct:User	file:
+to	common/chatroom.h	/^    char to[20];$/;"	m	struct:Msg
+work	server/server.c	/^void *work(void *arg){$/;"	f
